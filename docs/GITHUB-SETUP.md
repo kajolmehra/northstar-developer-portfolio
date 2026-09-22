@@ -1,6 +1,5 @@
 # GitHub setup
 
-Suggested description: `Anonymized Next.js and React developer portfolio case study with typed project pages, SEO, theme support, and Neon contact capture.`
+Suggested description: `Personal full-stack product engineer portfolio built with Next.js, React, TypeScript, typed case studies, SEO, theme support, and validated contact capture.`
 
-Suggested topics: `nextjs` `react` `typescript` `tailwindcss` `neon-postgres` `portfolio` `seo` `full-stack` `case-study`
-
+Suggested topics: `nextjs` `react` `typescript` `tailwindcss` `neon-postgres` `portfolio` `seo` `full-stack` `case-studies` `contact-form` `product-engineering`

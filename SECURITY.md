@@ -1,6 +1,5 @@
 # Security and confidentiality
 
-This case study excludes source code, real contact details, environment files, database records, deployment URLs, analytics, and proprietary portfolio content. Only approved fictional content and sanitized visuals belong in this folder.
+This public portfolio repository may include approved screenshots and personal branding from the portfolio website. It must still exclude contact submissions, database records, environment files, API keys, deployment credentials, private analytics, admin-only screens, and unpublished client material.
 
 Before publishing, review commit history, image metadata, links, contact forms, and all environment-like files.
-
