@@ -68,17 +68,26 @@ See the [screenshot guide](docs/SCREENSHOT-GUIDE.md) for capture rules and filen
 | UX / conversion | Case-study storytelling, service positioning, project filtering, proof blocks, and conversion-focused contact flow |
 | Quality | Production build scripts, type checking, responsive behavior, and privacy-safe content management |
 
-## Representative flow
+## Portfolio conversion flow
+
+Northstar treats the portfolio as a product funnel: establish fit quickly, let proof do the selling, then turn a qualified visitor into a structured enquiry.
 
 ```mermaid
-flowchart LR
-    Visitor[Portfolio visitor] --> Work[Browse selected work]
+flowchart TB
+    Visitor[Portfolio visitor] --> Position[Understand positioning]
+    Position --> Explore[Review services and process]
+    Explore --> Work[Browse selected work]
     Work --> Detail[Open project case study]
-    Detail --> Contact[Send project enquiry]
-    Contact --> Validate[Validate request]
-    Validate --> Store[(Optional Neon Postgres)]
-    Validate --> Notify[Confirmation response]
+    Detail --> Fit[Assess scope and fit]
+    Fit --> Enquiry[Submit project enquiry]
+    Enquiry --> Validate[Validate request]
+    Validate -->|Valid| Store[(Optional Neon Postgres)]
+    Validate -->|Needs changes| FormState[Show actionable field state]
+    FormState --> Enquiry
+    Store --> Confirm[Confirmation + next step]
 ```
+
+**Outcome:** visitors move from credibility to a clear, low-friction conversation without a generic contact page detour.
 
 ## Technical stack
 

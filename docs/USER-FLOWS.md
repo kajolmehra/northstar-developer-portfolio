@@ -1,11 +1,16 @@
 # User flows
 
 ```mermaid
-flowchart LR
-    Landing[Landing page] --> Services[Review services]
+flowchart TB
+    Landing[Landing page] --> Position[Understand positioning]
+    Landing --> Services[Review services and process]
     Landing --> Work[Explore selected work]
     Work --> CaseStudy[Read case study]
-    CaseStudy --> Enquiry[Send enquiry]
-    Enquiry --> Confirmation[Receive confirmation]
+    Services --> Fit[Assess scope and fit]
+    CaseStudy --> Fit
+    Fit --> Enquiry[Send project enquiry]
+    Enquiry --> Validate[Validate request]
+    Validate -->|Valid| Confirmation[Receive confirmation]
+    Validate -->|Needs changes| FormState[Show actionable field state]
+    FormState --> Enquiry
 ```
-
