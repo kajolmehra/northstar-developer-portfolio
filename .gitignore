@@ -1,0 +1,13 @@
+.env*
+!.env.example
+*.pem
+*.key
+*secret*.json
+*credentials*.json
+node_modules/
+.next/
+out/
+public/uploads/
+assets/screenshots/raw/
+assets/screenshots/private/
+
