@@ -9,6 +9,8 @@
 [![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
+[View the live portfolio →](https://kajolmehra.vercel.app/work-with-me)
+
 ## Overview
 
 This is a personal portfolio experience designed to make senior full-stack delivery easy to understand. It presents selected product work, explains build/modernize/integrate services, shows a calm delivery process, and turns qualified visitors into project enquiries. The implementation uses the Next.js App Router with reusable sections, project detail routes, theme switching, SEO metadata, and an API-backed contact form.
@@ -24,7 +26,26 @@ This is a personal portfolio experience designed to make senior full-stack deliv
 
 ## Visual tour
 
-The public portfolio can include approved screenshots because it is your own product. Recommended gallery order: homepage hero, selected-work grid, project detail view, responsive mobile view, and contact confirmation. See the [screenshot guide](docs/SCREENSHOT-GUIDE.md) for capture rules and filenames.
+The public portfolio can include approved screenshots because it is your own product. These captures are cropped directly from the live portfolio so the case study shows the real product experience rather than a fabricated mockup.
+
+### Homepage positioning
+
+![Live portfolio homepage hero](assets/screenshots/01-homepage-hero.png)
+
+### Selected work
+
+![Live portfolio selected work](assets/screenshots/02-selected-work.png)
+
+<details>
+<summary>View services, process, and contact captures</summary>
+
+![Services and delivery process](assets/screenshots/03-services-process.png)
+
+![Contact conversion section](assets/screenshots/04-contact-confirmation.png)
+
+</details>
+
+See the [screenshot guide](docs/SCREENSHOT-GUIDE.md) for capture rules and filenames.
 
 ## My contribution
 
