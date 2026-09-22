@@ -37,11 +37,11 @@ The public portfolio can include approved screenshots because it is your own pro
 ![Live portfolio selected work](assets/screenshots/02-selected-work.png)
 
 <details>
-<summary>View services, process, and contact captures</summary>
+<summary>View services and process capture</summary>
 
 ![Services and delivery process](assets/screenshots/03-services-process.png)
 
-![Contact conversion section](assets/screenshots/04-contact-confirmation.png)
+A contact screenshot is intentionally excluded from this public gallery so no direct contact detail is published.
 
 </details>
 
